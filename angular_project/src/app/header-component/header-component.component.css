@@ -1,0 +1,17 @@
+#division{
+    height: 100px;
+    padding: 10px;
+    background-color: antiquewhite;
+    
+}
+
+h2{
+    display: inline-block
+}
+
+#id1 , #id2{
+    margin-left: 10%;
+}
+hr{
+    border-color: red;  
+}
