@@ -1,1 +1,7 @@
-<app-recipie-item></app-recipie-item>
+<div id="body">
+<a *ngFor="let recipie of listOfRecepies" href="#" id="test">
+<img id="imageId" [src]="recipie.image" alt="not found">
+<h3>{{recipie.recipeName}}</h3>
+<p id="pId">{{recipie.recipeDesc}}</p>
+</a>
+</div>

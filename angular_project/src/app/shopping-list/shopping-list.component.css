@@ -1,0 +1,7 @@
+body{
+    margin:15px;
+}
+#test1{
+    display:grid;
+    grid-template-columns: 30% 40%
+}

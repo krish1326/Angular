@@ -1,1 +1,10 @@
+<body>
+<h1>Available Shopping items</h1>
+<div id="test1">
+<a *ngFor="let ingredient of ingredients" href="#">
+    <p>{{ingredient.name}}</p>
+    <p>{{ingredient.amount}}</p>
+</a>
+</div>
 <app-shopping-edit></app-shopping-edit>
+</body>

@@ -1,0 +1,19 @@
+#pId{
+    display: block
+}
+#imageId{
+    height:200px;
+    width:200px;
+}
+#body{
+    margin-left: 15px;
+    display:grid;
+    grid-template-columns: 30% 30% 30%;
+    
+}
+#test{
+    background-color: aliceblue
+}
+#test:hover{
+    background-color: aqua;
+}
