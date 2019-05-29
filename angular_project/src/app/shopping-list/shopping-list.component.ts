@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 import { ingredient } from '../shared/Ingredient.model';
 
 @Component({
@@ -10,9 +10,13 @@ export class ShoppingListComponent implements OnInit {
 
   ingredients:ingredient[] = [new ingredient('apples',5)
 ,new ingredient("banana",5)]
+
+
   constructor() { }
 
   ngOnInit() {
   }
-
+  some(dummytest:{name:string,age:number,address:string}){
+    alert(dummytest.name);
+  }
 }

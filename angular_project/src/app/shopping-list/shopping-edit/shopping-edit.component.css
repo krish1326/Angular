@@ -1,0 +1,8 @@
+.test{
+    width:125px;
+    float: left;
+}
+#name,#amount{
+    margin:10px;
+    display:block;
+}
