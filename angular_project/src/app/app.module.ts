@@ -10,7 +10,9 @@ import { RecipieListComponent } from './recipie/recipie-list/recipie-list.compon
 import { RecipieDetailsComponent } from './recipie/recipie-details/recipie-details.component';
 import { RecipieItemComponent } from './recipie/recipie-list/recipie-item/recipie-item.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
-
+import {Router, RouterModule} from '@angular/router';
+const approutes =[{"path":"Recipes","component":RecipieListComponent},
+{"path":"ShoppingList","component":ShoppingListComponent}];
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +26,7 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,FormsModule
+    AppRoutingModule,FormsModule,RouterModule.forRoot(approutes)
   ],
   providers: [],
   bootstrap: [AppComponent]
